@@ -1,0 +1,11 @@
+write(1, "Hello World without syscall\n", 28) = 28
+^^^^ write ^^^^
+
+write(1, "Hello World with syscall\n", 25) = 25
+^^^^ syscall ^^^^
+
+write(1, "Hello World with printf\n", 24) = 24
+^^^^ printf ^^^^
+
+exit_group(24)                          = ?
++++ exited with 24 +++

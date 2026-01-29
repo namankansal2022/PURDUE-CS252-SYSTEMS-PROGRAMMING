@@ -1,0 +1,26 @@
+total 1815
+-rw-r----- 1 kansal2 kansal2   3932 Oct 29 07:00 command.cc
+-rw-r----- 1 kansal2 kansal2    442 Oct  9 13:20 command.hh
+-rw-r----- 1 kansal2 kansal2 309512 Oct 29 07:06 command.o
+drwxr-s--- 2 kansal2 kansal2    183 Oct  9 13:20 examples
+-rw-r----- 1 kansal2 kansal2  46938 Oct 29 07:06 lex.yy.cc
+-rw-r----- 1 kansal2 kansal2 137656 Oct 29 07:06 lex.yy.o
+-rw-r----- 1 kansal2 kansal2   1566 Oct  9 13:20 Makefile
+-rw-r----- 1 kansal2 kansal2      0 Oct 29 07:07 out
+-rw-r----- 1 kansal2 kansal2      0 Oct 29 07:06 out.txt
+-rw-r----- 1 kansal2 kansal2   3161 Oct  9 13:20 read-line.c
+-rw-r----- 1 kansal2 kansal2    615 Oct  9 13:20 README
+-rwxr-x--- 1 kansal2 kansal2 398032 Oct 29 07:06 shell
+-rw-r----- 1 kansal2 kansal2    206 Oct  9 13:20 shell.cc
+-rw-r----- 1 kansal2 kansal2    144 Oct  9 13:20 shell.hh
+-rw-r----- 1 kansal2 kansal2    535 Oct  9 21:51 shell.l
+-rw-r----- 1 kansal2 kansal2 143944 Oct 29 07:06 shell.o
+-rw-r----- 1 kansal2 kansal2   2872 Oct 29 06:54 shell.y
+-rw-r----- 1 kansal2 kansal2    670 Oct  9 13:20 simpleCommand.cc
+-rw-r----- 1 kansal2 kansal2    319 Oct  9 13:20 simpleCommand.hh
+-rw-r----- 1 kansal2 kansal2 190568 Oct 29 07:06 simpleCommand.o
+drwxr-s--- 3 kansal2 kansal2   1602 Oct  9 13:20 test-shell
+-rw-r----- 1 kansal2 kansal2    495 Oct  9 13:20 tty-raw-mode.c
+-rw-r----- 1 kansal2 kansal2  44853 Oct 29 07:06 y.tab.cc
+-rw-r----- 1 kansal2 kansal2   3486 Oct 29 07:06 y.tab.hh
+-rw-r----- 1 kansal2 kansal2 166976 Oct 29 07:06 y.tab.o

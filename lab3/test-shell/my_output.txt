@@ -1,0 +1,7 @@
+execvp: No such file or directory
+033[1;4;93mtError Output Redirection033[0m
+execvp: No such file or directory
+execvp: No such file or directory
+[2894229] exited.
+[2894226] exited.
+$$$Good bye!!

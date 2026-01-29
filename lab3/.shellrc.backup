@@ -1,0 +1,2 @@
+echo "Hello from shellrc"
+setenv GREETING World

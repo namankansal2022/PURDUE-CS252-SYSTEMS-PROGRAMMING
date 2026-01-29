@@ -1,0 +1,56 @@
+[1;34m=== IO Redirection Start === [0m
+[1;33m
+test_redirect_input	2 pts[0m
+[1;32mtest_redirect_input Passed[0m
+[1;33m
+test_redirect_output	2 pts[0m
+[1;32mtest_redirect_output Passed[0m
+[1;33m
+test_redirect_error	1 pts[0m
+[1;32mtest_redirect_error Passed[0m
+[1;33m
+test_redirect_error2	1 pts[0m
+[1;31mtest_redirect_error2 Failed[0m
+[1;33m
+test_redirect_out_err	2 pts[0m
+[1;32mtest_redirect_out_err Passed[0m
+[1;33m
+test_redirect_multiple	1 pts[0m
+[1;31mtest_redirect_multiple Failed[0m
+[1;33m
+test_append_output	1 pts[0m
+[1;32mtest_append_output Passed[0m
+[1;34m
+=== IO Redirection End ===== (8 / 10 pts) 
+[0m
+[1;34m=== Pipes Start === [0m
+[1;33m
+test_pipes1	2 pts[0m
+[1;31mtest_pipes1 Failed[0m
+[1;33m
+test_pipes2	2 pts[0m
+[1;31mtest_pipes2 Failed[0m
+[1;33m
+test_pipes_redirect_out	2 pts[0m
+[1;31mtest_pipes_redirect_out Failed[0m
+[1;33m
+test_pipes_redirect_err	2 pts[0m
+[1;32mtest_pipes_redirect_err Passed[0m
+[1;34m
+=== Pipes End ===== (2 / 8 pts) 
+[0m
+[1;34m=== Background Processes Start === [0m
+[1;33m
+test_background	2 pts[0m
+[1;32mtest_background Passed[0m
+[1;34m
+=== Background Processes End ===== (2 / 2 pts) 
+[0m
+--------------------------------------------------
+User:  kansal2, CS252: Lab 3 - Part 1 Tests
+--------------------------------------------------
+IO Redirection:                  8.0 of 10.0
+Pipes:                           2.0 of 8.0
+Background Processes:            2.0 of 2.0
+---------------------------------------------------
+Testall Total:                   12.0 of 20.0

@@ -1,0 +1,38 @@
+cd ~/cs252/lab5-src
+cat > http-root-dir/htdocs/post-test-form.html << 'EOF'
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CGI POST Test Form</title>
+</head>
+<body>
+    <h1>Test CGI POST</h1>
+    
+    <h2>Test Form 1: Simple POST</h2>
+    <form action="/cgi-bin/test-post" method="POST">
+        <label>Name: <input type="text" name="name" value="John Doe"></label><br>
+        <label>Email: <input type="text" name="email" value="john@example.com"></label><br>
+        <label>Message: <textarea name="message">Hello World!</textarea></label><br>
+        <input type="submit" value="Submit via POST">
+    </form>
+    
+    <hr>
+    
+    <h2>Test Form 2: GET for comparison</h2>
+    <form action="/cgi-bin/test-post" method="GET">
+        <label>Name: <input type="text" name="name" value="Jane Doe"></label><br>
+        <label>Email: <input type="text" name="email" value="jane@example.com"></label><br>
+        <input type="submit" value="Submit via GET">
+    </form>
+    
+    <hr>
+    
+    <h2>Test Form 3: Query String + POST Body</h2>
+    <form action="/cgi-bin/test-post?source=webform&version=1" method="POST">
+        <label>Username: <input type="text" name="username" value="testuser"></label><br>
+        <label>Password: <input type="password" name="password" value="secret123"></label><br>
+        <input type="submit" value="Submit (Query+POST)">
+    </form>
+</body>
+</html>
+EOF

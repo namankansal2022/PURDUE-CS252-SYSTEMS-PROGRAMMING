@@ -1,0 +1,23 @@
+#!/bin/bash
+
+echo "Content-type: text/html"
+echo ""
+echo "<html><body>"
+echo "<h1>CGI POST/GET Test Results</h1>"
+echo "<hr>"
+echo "<h2>Request Method</h2>"
+echo "<p><b>REQUEST_METHOD:</b> $REQUEST_METHOD</p>"
+echo "<h2>Query String</h2>"
+echo "<p><b>QUERY_STRING:</b> $QUERY_STRING</p>"
+echo "<h2>Content Length</h2>"
+echo "<p><b>CONTENT_LENGTH:</b> $CONTENT_LENGTH</p>"
+if [ "$REQUEST_METHOD" = "POST" ]; then
+    echo "<h2>POST Data</h2>"
+    echo "<pre>"
+    if [ -n "$CONTENT_LENGTH" ]; then
+        read -n $CONTENT_LENGTH POST_DATA
+        echo "Raw: $POST_DATA"
+    fi
+    echo "</pre>"
+fi
+echo "</body></html>"

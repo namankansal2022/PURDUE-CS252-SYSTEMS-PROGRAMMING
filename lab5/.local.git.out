@@ -1,0 +1,1503 @@
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.local.git.out
+
+nothing added to commit but untracked files present (use "git add" to track)
+[master 061e09b] Commit
+ Committer: Naman Kansal <kansal2@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 252 insertions(+), 7 deletions(-)
+ rewrite myhttpd.cc (90%)
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.local.git.out
+
+nothing added to commit but untracked files present (use "git add" to track)
+[master c4a364c] Commit
+ Committer: Naman Kansal <kansal2@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 73 insertions(+), 252 deletions(-)
+ create mode 100644 a.cc
+ rewrite myhttpd.cc (77%)
+[master 0943c53] Commit
+ Committer: Naman Kansal <kansal2@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 40 insertions(+), 4 deletions(-)
+[master b2a56c4] Commit
+ Committer: Naman Kansal <kansal2@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 20 insertions(+), 1 deletion(-)
+[master a574532] Commit
+ Committer: Naman Kansal <kansal2@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 41 insertions(+), 1 deletion(-)
+[master 0aad48e] Commit
+ Committer: Naman Kansal <kansal2@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 13 insertions(+), 1 deletion(-)
+[master adfa222] Commit
+ Committer: Naman Kansal <kansal2@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 22 insertions(+), 3 deletions(-)
+[master 19d436a] Commit
+ Committer: Naman Kansal <kansal2@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 33 insertions(+), 1 deletion(-)
+[master 112fd1e] Commit
+ Committer: Naman Kansal <kansal2@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 12 insertions(+), 4 deletions(-)
+[master fc45934] Commit
+ Committer: Naman Kansal <kansal2@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 19 insertions(+), 6 deletions(-)
+[master dc7222d] Commit
+ Committer: Naman Kansal <kansal2@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 2 insertions(+)
+[master f95844e] Commit
+ Committer: Naman Kansal <kansal2@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ delete mode 100644 a.cc
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.local.git.out
+
+nothing added to commit but untracked files present (use "git add" to track)
+[master dacd7a5] Commit
+ Committer: Naman Kansal <kansal2@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 deletion(-)
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.local.git.out
+	lab5-src
+
+nothing added to commit but untracked files present (use "git add" to track)
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.local.git.out
+	lab5-src
+
+nothing added to commit but untracked files present (use "git add" to track)
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.local.git.out
+	lab5-src
+
+nothing added to commit but untracked files present (use "git add" to track)
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.local.git.out
+	lab5-src
+
+nothing added to commit but untracked files present (use "git add" to track)
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.local.git.out
+	lab5-src
+
+nothing added to commit but untracked files present (use "git add" to track)
+[master 588f1c5] Commit
+ Committer: Naman Kansal <kansal2@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 207 insertions(+), 66 deletions(-)
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.local.git.out
+	lab5-src
+
+nothing added to commit but untracked files present (use "git add" to track)
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.local.git.out
+	lab5-src
+
+nothing added to commit but untracked files present (use "git add" to track)
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.local.git.out
+	lab5-src
+
+nothing added to commit but untracked files present (use "git add" to track)
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.local.git.out
+	lab5-src
+
+nothing added to commit but untracked files present (use "git add" to track)
+[master ee1ecb9] Commit
+ Committer: Naman Kansal <kansal2@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.local.git.out
+	daytime-server
+	daytime-server.o
+	hello.o
+	hello.so
+	lab5-src
+	myhttpd
+	myhttpd.o
+	use-dlopen
+	use-dlopen.o
+
+nothing added to commit but untracked files present (use "git add" to track)
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.local.git.out
+	daytime-server
+	daytime-server.o
+	hello.o
+	hello.so
+	lab5-src
+	myhttpd
+	myhttpd.o
+	use-dlopen
+	use-dlopen.o
+
+nothing added to commit but untracked files present (use "git add" to track)
+[master 32a3830] Commit
+ Committer: Naman Kansal <kansal2@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 380 insertions(+), 6 deletions(-)
+[master bf47b4b] Commit
+ Committer: Naman Kansal <kansal2@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 9 insertions(+), 1 deletion(-)
+[master fdc5880] Commit
+ Committer: Naman Kansal <kansal2@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+[master e285796] Commit
+ Committer: Naman Kansal <kansal2@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 9 files changed, 87 insertions(+), 33 deletions(-)
+ rewrite http-root-dir/cgi-bin/post-query (89%)
+ rewrite http-root-dir/cgi-bin/query (87%)
+ rewrite http-root-dir/cgi-src/post-query.o (99%)
+ rewrite http-root-dir/cgi-src/query.o (99%)
+ rewrite http-root-dir/cgi-src/util.o (98%)
+ rewrite http-root-dir/htdocs/index.html (77%)
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.local.git.out
+	http-root-dir/a.cc
+	http-root-dir/cgi-bin/imagemap
+	http-root-dir/cgi-bin/jj
+	http-root-dir/cgi-bin/phf
+	http-root-dir/cgi-src/imagemap.o
+	http-root-dir/cgi-src/jj.o
+	http-root-dir/cgi-src/phf.o
+	http-root-dir/htdocs/stream.html
+	http-root-dir/server.log
+	http-root-dir/stream/
+	lab5-src
+	videos/
+
+nothing added to commit but untracked files present (use "git add" to track)
+[master aa6c1b6] Commit
+ Committer: Naman Kansal <kansal2@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 298 insertions(+), 193 deletions(-)
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.local.git.out
+	http-root-dir/a.cc
+	http-root-dir/cgi-bin/imagemap
+	http-root-dir/cgi-bin/jj
+	http-root-dir/cgi-bin/phf
+	http-root-dir/cgi-bin/test-post
+	http-root-dir/cgi-src/imagemap.o
+	http-root-dir/cgi-src/jj.o
+	http-root-dir/cgi-src/phf.o
+	http-root-dir/htdocs/stream.html
+	http-root-dir/server.log
+	http-root-dir/stream/
+	lab5-src
+	videos/
+
+nothing added to commit but untracked files present (use "git add" to track)
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.local.git.out
+	.nfs00000006f73bd43d00012eb6
+	http-root-dir/a.cc
+	http-root-dir/cgi-bin/imagemap
+	http-root-dir/cgi-bin/jj
+	http-root-dir/cgi-bin/phf
+	http-root-dir/cgi-bin/test-post
+	http-root-dir/cgi-src/imagemap.o
+	http-root-dir/cgi-src/jj.o
+	http-root-dir/cgi-src/phf.o
+	http-root-dir/htdocs/stream.html
+	http-root-dir/server.log
+	http-root-dir/stream/
+	lab5-src
+	videos/
+
+nothing added to commit but untracked files present (use "git add" to track)
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.local.git.out
+	http-root-dir/a.cc
+	http-root-dir/cgi-bin/imagemap
+	http-root-dir/cgi-bin/jj
+	http-root-dir/cgi-bin/phf
+	http-root-dir/cgi-bin/test-post
+	http-root-dir/cgi-src/imagemap.o
+	http-root-dir/cgi-src/jj.o
+	http-root-dir/cgi-src/phf.o
+	http-root-dir/htdocs/stream.html
+	http-root-dir/server.log
+	http-root-dir/stream/
+	lab5-src
+	videos/
+
+nothing added to commit but untracked files present (use "git add" to track)
+[master af890cb] Commit
+ Committer: Naman Kansal <kansal2@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 5 deletions(-)
+[master ca8ac63] Commit
+ Committer: Naman Kansal <kansal2@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.local.git.out
+	http-root-dir/a.cc
+	http-root-dir/cgi-bin/imagemap
+	http-root-dir/cgi-bin/jj
+	http-root-dir/cgi-bin/phf
+	http-root-dir/cgi-bin/test-post
+	http-root-dir/cgi-src/imagemap.o
+	http-root-dir/cgi-src/jj.o
+	http-root-dir/cgi-src/phf.o
+	http-root-dir/htdocs/stream.html
+	http-root-dir/server.log
+	http-root-dir/stream/
+	lab5-src
+	videos/
+
+nothing added to commit but untracked files present (use "git add" to track)
+[master c57834c] Commit
+ Committer: Naman Kansal <kansal2@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 148a879] Commit
+ Committer: Naman Kansal <kansal2@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 43 insertions(+), 28 deletions(-)
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.local.git.out
+	http-root-dir/a.cc
+	http-root-dir/cgi-bin/imagemap
+	http-root-dir/cgi-bin/jj
+	http-root-dir/cgi-bin/phf
+	http-root-dir/cgi-bin/test-post
+	http-root-dir/cgi-src/imagemap.o
+	http-root-dir/cgi-src/jj.o
+	http-root-dir/cgi-src/phf.o
+	http-root-dir/htdocs/stream.html
+	http-root-dir/server.log
+	http-root-dir/stream/
+	lab5-src
+	videos/
+
+nothing added to commit but untracked files present (use "git add" to track)
+[master 14712f6] Commit
+ Committer: Naman Kansal <kansal2@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 21 insertions(+), 4 deletions(-)
+HEAD detached at part1
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.local.git.out
+	http-root-dir/a.cc
+	http-root-dir/cgi-bin/imagemap
+	http-root-dir/cgi-bin/jj
+	http-root-dir/cgi-bin/phf
+	http-root-dir/cgi-bin/test-post
+	http-root-dir/cgi-src/imagemap.o
+	http-root-dir/cgi-src/jj.o
+	http-root-dir/cgi-src/phf.o
+	http-root-dir/htdocs/stream.html
+	http-root-dir/server.log
+	http-root-dir/stream/
+	lab5-src
+	trace.log
+	videos/
+
+nothing added to commit but untracked files present (use "git add" to track)
+[detached HEAD 3ac929d] Commit
+ Committer: Naman Kansal <kansal2@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 300 insertions(+), 5 deletions(-)
+HEAD detached from part1
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.local.git.out
+	http-root-dir/a.cc
+	http-root-dir/cgi-bin/imagemap
+	http-root-dir/cgi-bin/jj
+	http-root-dir/cgi-bin/phf
+	http-root-dir/cgi-bin/test-post
+	http-root-dir/cgi-src/imagemap.o
+	http-root-dir/cgi-src/jj.o
+	http-root-dir/cgi-src/phf.o
+	http-root-dir/htdocs/stream.html
+	http-root-dir/server.log
+	http-root-dir/stream/
+	lab5-src
+	trace.log
+	videos/
+
+nothing added to commit but untracked files present (use "git add" to track)
+HEAD detached from part1
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.local.git.out
+	http-root-dir/a.cc
+	http-root-dir/cgi-bin/imagemap
+	http-root-dir/cgi-bin/jj
+	http-root-dir/cgi-bin/phf
+	http-root-dir/cgi-bin/test-post
+	http-root-dir/cgi-src/imagemap.o
+	http-root-dir/cgi-src/jj.o
+	http-root-dir/cgi-src/phf.o
+	http-root-dir/htdocs/stream.html
+	http-root-dir/server.log
+	http-root-dir/stream/
+	lab5-src
+	trace.log
+	videos/
+
+nothing added to commit but untracked files present (use "git add" to track)
+[detached HEAD 9c5076e] Commit
+ Committer: Naman Kansal <kansal2@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 8 insertions(+), 25 deletions(-)
+[detached HEAD 2199521] Commit
+ Committer: Naman Kansal <kansal2@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 10 insertions(+)
+[detached HEAD d514b85] Commit
+ Committer: Naman Kansal <kansal2@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+[detached HEAD 847ace2] Commit
+ Committer: Naman Kansal <kansal2@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 6 insertions(+), 6 deletions(-)
+[detached HEAD 1f23955] Commit
+ Committer: Naman Kansal <kansal2@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 5 insertions(+), 3 deletions(-)
+HEAD detached from part1
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.local.git.out
+	.nfs00000006fb3c1f7400013028
+	http-root-dir/a.cc
+	http-root-dir/cgi-bin/imagemap
+	http-root-dir/cgi-bin/jj
+	http-root-dir/cgi-bin/phf
+	http-root-dir/cgi-bin/test-post
+	http-root-dir/cgi-src/imagemap.o
+	http-root-dir/cgi-src/jj.o
+	http-root-dir/cgi-src/phf.o
+	http-root-dir/htdocs/stream.html
+	http-root-dir/server.log
+	http-root-dir/stream/
+	lab5-src
+	trace.log
+	videos/
+
+nothing added to commit but untracked files present (use "git add" to track)
+[detached HEAD 921570c] Commit
+ Committer: Naman Kansal <kansal2@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 71 insertions(+), 3 deletions(-)
+HEAD detached from part1
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.local.git.out
+	.nfs00000006fb3c1f7400013028
+	http-root-dir/a.cc
+	http-root-dir/cgi-bin/imagemap
+	http-root-dir/cgi-bin/jj
+	http-root-dir/cgi-bin/phf
+	http-root-dir/cgi-bin/test-post
+	http-root-dir/cgi-src/imagemap.o
+	http-root-dir/cgi-src/jj.o
+	http-root-dir/cgi-src/phf.o
+	http-root-dir/htdocs/stream.html
+	http-root-dir/server.log
+	http-root-dir/stream/
+	lab5-src
+	trace.log
+	videos/
+
+nothing added to commit but untracked files present (use "git add" to track)
+[detached HEAD b0c0c14] Commit
+ Committer: Naman Kansal <kansal2@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 200 insertions(+)
+[detached HEAD 79c7caf] Commit
+ Committer: Naman Kansal <kansal2@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 71 insertions(+), 5 deletions(-)
+HEAD detached from part1
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.local.git.out
+	http-root-dir/a.cc
+	http-root-dir/cgi-bin/imagemap
+	http-root-dir/cgi-bin/jj
+	http-root-dir/cgi-bin/phf
+	http-root-dir/cgi-bin/test-post
+	http-root-dir/cgi-src/imagemap.o
+	http-root-dir/cgi-src/jj.o
+	http-root-dir/cgi-src/phf.o
+	http-root-dir/htdocs/post-test-form.html
+	http-root-dir/htdocs/stream.html
+	http-root-dir/server.log
+	http-root-dir/stream/
+	lab5-src
+	trace.log
+	videos/
+
+nothing added to commit but untracked files present (use "git add" to track)
+HEAD detached from part1
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.local.git.out
+	http-root-dir/a.cc
+	http-root-dir/cgi-bin/imagemap
+	http-root-dir/cgi-bin/jj
+	http-root-dir/cgi-bin/phf
+	http-root-dir/cgi-bin/test-post
+	http-root-dir/cgi-src/imagemap.o
+	http-root-dir/cgi-src/jj.o
+	http-root-dir/cgi-src/phf.o
+	http-root-dir/htdocs/post-test-form.html
+	http-root-dir/htdocs/stream.html
+	http-root-dir/server.log
+	http-root-dir/stream/
+	lab5-src
+	trace.log
+	videos/
+
+nothing added to commit but untracked files present (use "git add" to track)
+HEAD detached from part1
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.local.git.out
+	http-root-dir/a.cc
+	http-root-dir/cgi-bin/imagemap
+	http-root-dir/cgi-bin/jj
+	http-root-dir/cgi-bin/phf
+	http-root-dir/cgi-bin/test-post
+	http-root-dir/cgi-src/imagemap.o
+	http-root-dir/cgi-src/jj.o
+	http-root-dir/cgi-src/phf.o
+	http-root-dir/htdocs/post-test-form.html
+	http-root-dir/htdocs/stream.html
+	http-root-dir/server.log
+	http-root-dir/stream/
+	lab5-src
+	trace.log
+	videos/
+
+nothing added to commit but untracked files present (use "git add" to track)
+[detached HEAD 6d14073] Commit
+ Committer: Naman Kansal <kansal2@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 119 insertions(+), 2 deletions(-)
+[detached HEAD 15456fd] Commit
+ Committer: Naman Kansal <kansal2@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 2 insertions(+), 21 deletions(-)
+HEAD detached from part1
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.local.git.out
+	daytime-server
+	daytime-server.o
+	hello.o
+	hello.so
+	http-root-dir/a.cc
+	http-root-dir/cgi-bin/imagemap
+	http-root-dir/cgi-bin/jj
+	http-root-dir/cgi-bin/phf
+	http-root-dir/cgi-bin/test-post
+	http-root-dir/cgi-src/imagemap.o
+	http-root-dir/cgi-src/jj.o
+	http-root-dir/cgi-src/phf.o
+	http-root-dir/htdocs/post-test-form.html
+	http-root-dir/htdocs/stream.html
+	http-root-dir/server.log
+	http-root-dir/stream/
+	lab5-src
+	myhttpd
+	myhttpd.o
+	trace.log
+	use-dlopen
+	use-dlopen.o
+	videos/
+
+nothing added to commit but untracked files present (use "git add" to track)
+[detached HEAD 9877123] Commit
+ Committer: Naman Kansal <kansal2@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 2 insertions(+), 4 deletions(-)
+HEAD detached from part1
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.local.git.out
+	http-root-dir/a.cc
+	http-root-dir/cgi-bin/imagemap
+	http-root-dir/cgi-bin/jj
+	http-root-dir/cgi-bin/phf
+	http-root-dir/cgi-bin/test-post
+	http-root-dir/cgi-src/imagemap.o
+	http-root-dir/cgi-src/jj.o
+	http-root-dir/cgi-src/phf.o
+	http-root-dir/htdocs/post-test-form.html
+	http-root-dir/htdocs/stream.html
+	http-root-dir/server.log
+	http-root-dir/stream/
+	lab5-src
+	trace.log
+	videos/
+
+nothing added to commit but untracked files present (use "git add" to track)
+HEAD detached from part1
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.local.git.out
+	http-root-dir/a.cc
+	http-root-dir/cgi-bin/imagemap
+	http-root-dir/cgi-bin/jj
+	http-root-dir/cgi-bin/phf
+	http-root-dir/cgi-bin/test-post
+	http-root-dir/cgi-src/imagemap.o
+	http-root-dir/cgi-src/jj.o
+	http-root-dir/cgi-src/phf.o
+	http-root-dir/htdocs/post-test-form.html
+	http-root-dir/htdocs/stream.html
+	http-root-dir/server.log
+	http-root-dir/stream/
+	lab5-src
+	trace.log
+	videos/
+
+nothing added to commit but untracked files present (use "git add" to track)
+HEAD detached from part1
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.local.git.out
+	http-root-dir/a.cc
+	http-root-dir/cgi-bin/imagemap
+	http-root-dir/cgi-bin/jj
+	http-root-dir/cgi-bin/phf
+	http-root-dir/cgi-bin/test-post
+	http-root-dir/cgi-src/imagemap.o
+	http-root-dir/cgi-src/jj.o
+	http-root-dir/cgi-src/phf.o
+	http-root-dir/htdocs/post-test-form.html
+	http-root-dir/htdocs/stream.html
+	http-root-dir/server.log
+	http-root-dir/stream/
+	lab5-src
+	trace.log
+	videos/
+
+nothing added to commit but untracked files present (use "git add" to track)
+[detached HEAD 2127e05] Commit
+ Committer: Naman Kansal <kansal2@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 6 insertions(+), 81 deletions(-)
+HEAD detached from part1
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.local.git.out
+	http-root-dir/a.cc
+	http-root-dir/cgi-bin/imagemap
+	http-root-dir/cgi-bin/jj
+	http-root-dir/cgi-bin/phf
+	http-root-dir/cgi-bin/test-post
+	http-root-dir/cgi-src/imagemap.o
+	http-root-dir/cgi-src/jj.o
+	http-root-dir/cgi-src/phf.o
+	http-root-dir/htdocs/post-test-form.html
+	http-root-dir/htdocs/stream.html
+	http-root-dir/server.log
+	http-root-dir/stream/
+	lab5-src
+	trace.log
+	videos/
+
+nothing added to commit but untracked files present (use "git add" to track)
+HEAD detached from part1
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.local.git.out
+	http-root-dir/a.cc
+	http-root-dir/cgi-bin/imagemap
+	http-root-dir/cgi-bin/jj
+	http-root-dir/cgi-bin/phf
+	http-root-dir/cgi-bin/test-post
+	http-root-dir/cgi-src/imagemap.o
+	http-root-dir/cgi-src/jj.o
+	http-root-dir/cgi-src/phf.o
+	http-root-dir/htdocs/post-test-form.html
+	http-root-dir/htdocs/stream.html
+	http-root-dir/server.log
+	http-root-dir/stream/
+	lab5-src
+	trace.log
+	videos/
+
+nothing added to commit but untracked files present (use "git add" to track)
+[detached HEAD b840ff5] Commit
+ Committer: Naman Kansal <kansal2@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 42 insertions(+), 50 deletions(-)
+HEAD detached from part1
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.local.git.out
+	http-root-dir/a.cc
+	http-root-dir/cgi-bin/imagemap
+	http-root-dir/cgi-bin/jj
+	http-root-dir/cgi-bin/phf
+	http-root-dir/cgi-bin/test-post
+	http-root-dir/cgi-src/imagemap.o
+	http-root-dir/cgi-src/jj.o
+	http-root-dir/cgi-src/phf.o
+	http-root-dir/htdocs/post-test-form.html
+	http-root-dir/htdocs/stream.html
+	http-root-dir/server.log
+	http-root-dir/stream/
+	lab5-src
+	trace.log
+	videos/
+
+nothing added to commit but untracked files present (use "git add" to track)
+[detached HEAD 65a49e8] Commit
+ Committer: Naman Kansal <kansal2@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 176 insertions(+), 41 deletions(-)
+[detached HEAD 19b002d] Commit
+ Committer: Naman Kansal <kansal2@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 41 insertions(+), 176 deletions(-)
+[detached HEAD e0879c2] Commit
+ Committer: Naman Kansal <kansal2@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 163 insertions(+), 41 deletions(-)
+[detached HEAD dcec13c] Commit
+ Committer: Naman Kansal <kansal2@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 5 insertions(+), 9 deletions(-)
+HEAD detached from part1
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.local.git.out
+	http-root-dir/a.cc
+	http-root-dir/cgi-bin/imagemap
+	http-root-dir/cgi-bin/jj
+	http-root-dir/cgi-bin/phf
+	http-root-dir/cgi-bin/test-post
+	http-root-dir/cgi-src/imagemap.o
+	http-root-dir/cgi-src/jj.o
+	http-root-dir/cgi-src/phf.o
+	http-root-dir/htdocs/post-test-form.html
+	http-root-dir/htdocs/stream.html
+	http-root-dir/server.log
+	http-root-dir/stream/
+	lab5-src
+	trace.log
+	videos/
+
+nothing added to commit but untracked files present (use "git add" to track)
+[detached HEAD c2e0938] Commit
+ Committer: Naman Kansal <kansal2@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 9 insertions(+)
+HEAD detached from part1
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.local.git.out
+	http-root-dir/a.cc
+	http-root-dir/cgi-bin/imagemap
+	http-root-dir/cgi-bin/jj
+	http-root-dir/cgi-bin/phf
+	http-root-dir/cgi-bin/test-post
+	http-root-dir/cgi-src/imagemap.o
+	http-root-dir/cgi-src/jj.o
+	http-root-dir/cgi-src/phf.o
+	http-root-dir/htdocs/post-test-form.html
+	http-root-dir/htdocs/stream.html
+	http-root-dir/server.log
+	http-root-dir/stream/
+	lab5-src
+	trace.log
+	videos/
+
+nothing added to commit but untracked files present (use "git add" to track)
+HEAD detached from part1
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.local.git.out
+	http-root-dir/a.cc
+	http-root-dir/cgi-bin/imagemap
+	http-root-dir/cgi-bin/jj
+	http-root-dir/cgi-bin/phf
+	http-root-dir/cgi-bin/test-post
+	http-root-dir/cgi-src/imagemap.o
+	http-root-dir/cgi-src/jj.o
+	http-root-dir/cgi-src/phf.o
+	http-root-dir/htdocs/post-test-form.html
+	http-root-dir/htdocs/stream.html
+	http-root-dir/server.log
+	http-root-dir/stream/
+	lab5-src
+	trace.log
+	videos/
+
+nothing added to commit but untracked files present (use "git add" to track)
+HEAD detached from part1
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.local.git.out
+	http-root-dir/a.cc
+	http-root-dir/cgi-bin/imagemap
+	http-root-dir/cgi-bin/jj
+	http-root-dir/cgi-bin/phf
+	http-root-dir/cgi-bin/test-post
+	http-root-dir/cgi-src/imagemap.o
+	http-root-dir/cgi-src/jj.o
+	http-root-dir/cgi-src/phf.o
+	http-root-dir/htdocs/post-test-form.html
+	http-root-dir/htdocs/stream.html
+	http-root-dir/server.log
+	http-root-dir/stream/
+	lab5-src
+	trace.log
+	videos/
+
+nothing added to commit but untracked files present (use "git add" to track)
+HEAD detached from part1
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.local.git.out
+	http-root-dir/a.cc
+	http-root-dir/cgi-bin/imagemap
+	http-root-dir/cgi-bin/jj
+	http-root-dir/cgi-bin/phf
+	http-root-dir/cgi-bin/test-post
+	http-root-dir/cgi-src/imagemap.o
+	http-root-dir/cgi-src/jj.o
+	http-root-dir/cgi-src/phf.o
+	http-root-dir/htdocs/post-test-form.html
+	http-root-dir/htdocs/stream.html
+	http-root-dir/server.log
+	http-root-dir/stream/
+	lab5-src
+	trace.log
+	videos/
+
+nothing added to commit but untracked files present (use "git add" to track)
+HEAD detached from part1
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.local.git.out
+	http-root-dir/a.cc
+	http-root-dir/cgi-bin/imagemap
+	http-root-dir/cgi-bin/jj
+	http-root-dir/cgi-bin/phf
+	http-root-dir/cgi-bin/test-post
+	http-root-dir/cgi-src/imagemap.o
+	http-root-dir/cgi-src/jj.o
+	http-root-dir/cgi-src/phf.o
+	http-root-dir/htdocs/post-test-form.html
+	http-root-dir/htdocs/stream.html
+	http-root-dir/server.log
+	http-root-dir/stream/
+	lab5-src
+	trace.log
+	videos/
+
+nothing added to commit but untracked files present (use "git add" to track)
+HEAD detached from part1
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.local.git.out
+	http-root-dir/a.cc
+	http-root-dir/cgi-bin/imagemap
+	http-root-dir/cgi-bin/jj
+	http-root-dir/cgi-bin/phf
+	http-root-dir/cgi-bin/test-post
+	http-root-dir/cgi-src/imagemap.o
+	http-root-dir/cgi-src/jj.o
+	http-root-dir/cgi-src/phf.o
+	http-root-dir/htdocs/post-test-form.html
+	http-root-dir/htdocs/stream.html
+	http-root-dir/server.log
+	http-root-dir/stream/
+	lab5-src
+	trace.log
+	videos/
+
+nothing added to commit but untracked files present (use "git add" to track)
+HEAD detached from part1
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.local.git.out
+	http-root-dir/a.cc
+	http-root-dir/cgi-bin/imagemap
+	http-root-dir/cgi-bin/jj
+	http-root-dir/cgi-bin/phf
+	http-root-dir/cgi-bin/test-post
+	http-root-dir/cgi-src/imagemap.o
+	http-root-dir/cgi-src/jj.o
+	http-root-dir/cgi-src/phf.o
+	http-root-dir/htdocs/post-test-form.html
+	http-root-dir/htdocs/stream.html
+	http-root-dir/server.log
+	http-root-dir/stream/
+	lab5-src
+	trace.log
+	videos/
+
+nothing added to commit but untracked files present (use "git add" to track)
+[detached HEAD 0207fa2] Commit
+ Committer: Naman Kansal <kansal2@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 50 insertions(+), 54 deletions(-)
+HEAD detached from part1
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.local.git.out
+	Readme.md
+	http-root-dir/a.cc
+	http-root-dir/cgi-bin/imagemap
+	http-root-dir/cgi-bin/jj
+	http-root-dir/cgi-bin/phf
+	http-root-dir/cgi-bin/test-post
+	http-root-dir/cgi-src/imagemap.o
+	http-root-dir/cgi-src/jj.o
+	http-root-dir/cgi-src/phf.o
+	http-root-dir/htdocs/post-test-form.html
+	http-root-dir/htdocs/stream.html
+	http-root-dir/server.log
+	http-root-dir/stream/
+	lab5-src
+	trace.log
+	videos/
+
+nothing added to commit but untracked files present (use "git add" to track)
+HEAD detached from part1
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.local.git.out
+	Readme.md
+	http-root-dir/a.cc
+	http-root-dir/cgi-bin/imagemap
+	http-root-dir/cgi-bin/jj
+	http-root-dir/cgi-bin/phf
+	http-root-dir/cgi-bin/test-post
+	http-root-dir/cgi-src/imagemap.o
+	http-root-dir/cgi-src/jj.o
+	http-root-dir/cgi-src/phf.o
+	http-root-dir/htdocs/post-test-form.html
+	http-root-dir/htdocs/stream.html
+	http-root-dir/server.log
+	http-root-dir/stream/
+	lab5-src
+	trace.log
+	videos/
+
+nothing added to commit but untracked files present (use "git add" to track)
+HEAD detached from part1
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.local.git.out
+	Readme.md
+	http-root-dir/a.cc
+	http-root-dir/cgi-bin/imagemap
+	http-root-dir/cgi-bin/jj
+	http-root-dir/cgi-bin/phf
+	http-root-dir/cgi-bin/test-post
+	http-root-dir/cgi-src/imagemap.o
+	http-root-dir/cgi-src/jj.o
+	http-root-dir/cgi-src/phf.o
+	http-root-dir/htdocs/post-test-form.html
+	http-root-dir/htdocs/stream.html
+	http-root-dir/server.log
+	http-root-dir/stream/
+	lab5-src
+	trace.log
+	videos/
+
+nothing added to commit but untracked files present (use "git add" to track)
+HEAD detached from part1
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.local.git.out
+	Readme.md
+	http-root-dir/a.cc
+	http-root-dir/cgi-bin/imagemap
+	http-root-dir/cgi-bin/jj
+	http-root-dir/cgi-bin/phf
+	http-root-dir/cgi-bin/test-post
+	http-root-dir/cgi-src/imagemap.o
+	http-root-dir/cgi-src/jj.o
+	http-root-dir/cgi-src/phf.o
+	http-root-dir/htdocs/post-test-form.html
+	http-root-dir/htdocs/stream.html
+	http-root-dir/server.log
+	http-root-dir/stream/
+	lab5-src
+	trace.log
+	videos/
+
+nothing added to commit but untracked files present (use "git add" to track)
+HEAD detached from part1
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.local.git.out
+	Readme.md
+	http-root-dir/a.cc
+	http-root-dir/cgi-bin/imagemap
+	http-root-dir/cgi-bin/jj
+	http-root-dir/cgi-bin/phf
+	http-root-dir/cgi-bin/test-post
+	http-root-dir/cgi-src/imagemap.o
+	http-root-dir/cgi-src/jj.o
+	http-root-dir/cgi-src/phf.o
+	http-root-dir/htdocs/post-test-form.html
+	http-root-dir/htdocs/stream.html
+	http-root-dir/server.log
+	http-root-dir/stream/
+	lab5-src
+	trace.log
+	videos/
+
+nothing added to commit but untracked files present (use "git add" to track)

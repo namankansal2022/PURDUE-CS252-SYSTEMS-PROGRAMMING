@@ -1,0 +1,119 @@
+
+# **README – CS252 Lab 4**
+
+## **Part 2: Thread Creation**
+
+### **Output of thr1 (after modification)**
+
+The modified program creates four additional threads that print the characters **"A"**, **"B"**, **"D"**, and **"E"** in infinite loops.
+The main thread prints **"C"** in another infinite loop.
+
+Because there is no synchronization and all threads continuously print as fast as possible, the output becomes an extremely fast, interleaved stream of characters, for example:
+
+```
+ABCDEABCEDCABEEABCDCEABCED...
+```
+
+The ordering is random because all five threads (A, B, C, D, E) run concurrently and compete for the CPU and stdout.
+
+### **Explanation of thr2 behavior**
+
+In `thr2.cc`, the main thread calls:
+
+```c
+printC("C");
+```
+
+before reaching the two `pthread_create()` calls.
+
+`printC()` contains an infinite loop:
+
+```c
+while (1) {
+    printf("%s", s);
+}
+```
+
+Since `printC("C")` never returns, the thread creation lines for "A" and "B" are never executed.
+As a result, the program prints only **"C"** forever, even though two threads are declared in the code.
+
+---
+
+## **Part 4: Spin Locks**
+
+### **Timing Results**
+
+| Method               | real time | user time | system time |
+| -------------------- | --------- | --------- | ----------- |
+| pthread_mutex        | 1.513 s   | 2.046 s   | 0.937 s     |
+| spin lock + yield    | 0.366 s   | 0.495 s   | 0.172 s     |
+| spin lock (no yield) | 2.240 s   | 4.295 s   | 0.004 s     |
+
+### **Why is user time much larger for the spin lock without yield?**
+
+Without `pthread_yield()`, a thread that cannot acquire the lock repeatedly executes `test_and_set()` in a tight loop.
+This busy-waiting consumes CPU cycles continuously in user mode, causing the user time to become extremely large.
+
+With yield enabled, waiting threads voluntarily give up the CPU instead of spinning, which greatly reduces user time.
+
+### **Why is system time larger for pthread_mutex compared to spin lock?**
+
+`pthread_mutex` uses kernel mechanisms (e.g., futexes) to put threads to sleep and wake them up.
+These operations require entering the operating system, which increases **system time**.
+
+Spin locks do all waiting in user space and avoid system calls, so their **system time is very small**.
+
+---
+
+## **Part 7: Buffer Overflow**
+
+To exploit the buffer overflow, we overwrite the `set_me` variable with the value **0xdeadbeef**.
+
+### **Little-endian byte order**
+
+Since the program is compiled as a **32-bit little-endian** executable, the correct byte layout of `0xdeadbeef` in memory is:
+
+```
+\xef\xbe\xad\xde
+```
+
+This byte sequence must appear **immediately after the first 15 characters that fill `buf`**.
+
+### **Exploit payload (stored in hello-exploit)**
+
+```
+AAAAAAAAAAAAAAA\xef\xbe\xad\xde
+```
+
+### **Exploit command used**
+
+```
+./buffer $(cat hello-exploit)
+```
+
+### **How the exploit works**
+
+* `buf` can hold only **15 bytes**, but `strcpy()` copies our entire input.
+* The next 4 bytes overwrite the adjacent variable `set_me` on the stack.
+* Writing the little-endian bytes for `0xdeadbeef` into this location makes the condition:
+
+```c
+if (set_me == 0xdeadbeef)
+```
+
+evaluate to true.
+
+* This causes the program to execute:
+
+```c
+shell();
+```
+
+resulting in:
+
+* The message **"You did it."**
+* A spawned **/bin/sh** shell
+  demonstrating the buffer overflow vulnerability.
+
+---
+
