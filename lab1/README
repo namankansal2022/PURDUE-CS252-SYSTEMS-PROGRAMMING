@@ -1,1 +1,56 @@
+CS 252 Lab 1 – Custom Memory Allocator
+Student: Naman Kansal (kansal2)
+
+FEATURES IMPLEMENTED
+
+Base Features
+• User-level replacement for malloc() and free()
+• Manual heap memory management in user space
+• Memory requested from the OS using low-level system calls
+• Block-based heap organization with metadata headers
+
+Memory Management
+• Each heap block contains a metadata header
+• Header stores block size and allocation status
+• Integrity metadata used for validation and debugging
+• Header-based layout enables heap traversal without external structures
+
+Free List Organization
+• Multiple free lists maintained for different size classes
+• Free lists reduce allocation search time
+• Small and large allocations handled independently
+
+Allocation Strategy
+• Requested sizes are aligned and normalized
+• Appropriate free list selected based on size
+• Suitable free block searched within the selected list
+• Blocks split when larger than required
+• Allocated portion returned to the user
+
+Deallocation Strategy
+• Freed blocks returned to appropriate free list
+• Adjacent free blocks are coalesced
+• Coalescing reduces external fragmentation
+• Heap consistency maintained during free operations
+
+Safety and Correctness
+• Detection of invalid and double free operations
+• Heap structure invariants preserved
+• Metadata integrity checks included
+
+CONCEPTS DEMONSTRATED
+• Heap memory management
+• Pointer arithmetic and alignment
+• Free list–based allocators
+• Internal and external fragmentation
+• Block splitting and coalescing
+• Low-level systems programming in C
+
+BUILDING AND RUNNING
+
+Build
+make
+
+Testing
+./runtest.py
 
