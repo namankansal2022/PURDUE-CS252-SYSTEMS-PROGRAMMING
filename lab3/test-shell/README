@@ -1,23 +1,116 @@
-Shell Project Testing Script
-----------------------------
+CS 252 Lab 4 – Introduction to Threads
+Student: Naman Kansal (kansal2)
 
-1. Make sure that your shell project does not print
-debug messages. The output will be compared with the one
-of sh/csh/tcsh and the extra debug messages will cause the output
-to be different.
+FEATURES IMPLEMENTED
 
-2. Only print the shell prompt if the input is a terminal.
-Use the function "isatty()" to know if the input is a terminal or not.
-Add the following code to your shell in the prompt procedure:
+Part 1: System Calls
+• Implemented a program demonstrating direct system call invocation using syscall()
+• Compared output generated using write(), syscall(SYS_write), and printf()
+• Used strace to trace and analyze system calls made by the program
+• Identified and annotated system calls corresponding to write, syscall, and printf
+• Observed differences in system call behavior between library calls and direct syscalls
 
-if ( isatty(0) ) {
-  Print prompt
-}
+File: hello-syscall.c
+Output analysis: strace.out
 
-3. The test script assumes that your shell executable is called "shell"
-and "shell" is found one directory above the test directory.
+---
 
-4. To run all tests type "./testall". You may also run each test
-individually by typing "./testall test1", or just "./<test_name>" etc.
+Part 2: Thread Creation
+• Built and executed a multithreaded program using POSIX threads
+• Observed interleaved output from multiple threads
+• Extended the program to create additional threads printing different characters
+• Analyzed thread scheduling behavior and non-deterministic output order
+• Examined thread lifecycle and concurrent execution
 
-Good luck!
+Files:
+• thr1.cc (modified to include additional threads)
+• thr2.cc (analyzed behavior and explained output ordering)
+
+---
+
+Part 3: Mutual Exclusion with Mutex Locks
+• Executed a shared counter program demonstrating race conditions
+• Observed incorrect final counts due to unsynchronized access
+• Added pthread mutex locks to protect the critical section
+• Ensured correct and consistent final count across multiple runs
+• Demonstrated the necessity of mutual exclusion in multithreaded programs
+
+File: count.cc (modified with mutex locks)
+
+---
+
+Part 4: Spin Locks
+• Studied a counter program implemented using custom spin locks
+• Implemented spin lock and unlock functions using busy waiting
+• Used pthread_yield() to improve CPU fairness
+• Compared behavior of spin locks with and without yielding
+• Measured and analyzed user time, system time, and real time
+• Verified correctness of final count after synchronization
+
+File: count_spin.cc
+
+Performance Comparison Table (included in README):
+• pthread mutex (count)
+• spin lock with pthread_yield
+• spin lock without pthread_yield
+
+---
+
+Part 5: Deadlocks
+• Executed a program that intentionally caused a deadlock
+• Analyzed lock acquisition order leading to deadlock
+• Modified the code to eliminate circular wait conditions
+• Ensured program terminates correctly without hanging
+
+File: deadlock.cc (fixed version)
+
+---
+
+Part 6: Bounded Buffer (Producer–Consumer)
+• Completed a bounded buffer implementation using threads
+• Added mutex locks to protect shared buffer access
+• Used semaphores to manage buffer capacity and synchronization
+• Correctly coordinated producer and consumer threads
+• Prevented race conditions and buffer overflow/underflow
+
+File: bounded-buffer.cc
+
+---
+
+Part 7: Buffer Overflow Vulnerability
+• Studied a vulnerable C program susceptible to stack buffer overflow
+• Exploited the vulnerability by overwriting adjacent memory
+• Used little-endian byte ordering to modify a control variable
+• Successfully redirected execution to a shell function
+• Demonstrated how unsafe string operations lead to security issues
+• Explained how the exploit works and why it succeeds
+
+File: buffer.c
+Exploit demonstrated via crafted input string
+
+---
+
+CONCEPTS DEMONSTRATED
+• System calls and OS interaction
+• POSIX thread creation and scheduling
+• Race conditions and critical sections
+• Mutex locks and spin locks
+• Deadlocks and their prevention
+• Semaphores and producer–consumer synchronization
+• Performance measurement of synchronization primitives
+• Buffer overflow vulnerabilities and memory safety
+• Importance of secure systems programming
+
+BUILDING AND RUNNING
+
+Compile sources using provided Makefile:
+make
+
+Run examples:
+./thr1
+./count
+./count_spin
+./deadlock
+./bounded-buffer
+./buffer <payload>
+
