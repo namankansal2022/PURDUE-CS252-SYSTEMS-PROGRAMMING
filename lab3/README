@@ -1,93 +1,83 @@
-# Lab 1 – Custom Memory Allocator (`malloc` / `free`)
 
-## Overview
-This lab implements a **user-level dynamic memory allocator** that replaces the standard
-`malloc()` and `free()` routines.  
-The objective is to understand how heap memory management works internally and to design
-an allocator that is efficient, correct, and resilient to fragmentation.
 
-The allocator manually manages heap memory using metadata headers and multiple free lists,
-supporting allocation, deallocation, block splitting, and coalescing.
+CS 252 Lab 3 – Unix Shell
+Student: Naman Kansal (kansal2)
 
----
+FEATURES IMPLEMENTED
 
-## Key Features
-
-### 1. Custom Allocation Interface
-- A full replacement for `malloc()` and `free()` implemented entirely in **user space**
-- Memory is requested from the operating system using low-level system calls and then
-  managed internally by the allocator
+Part 1: Core Shell Functionality
+• Custom Unix-style command shell implemented in C++
+• Execution of external programs using fork() and execvp()
+• Support for commands with multiple arguments
+• Background execution using &
+• Proper parent–child process synchronization using wait()/waitpid()
 
 ---
 
-### 2. Block Metadata Management
-Each heap block contains a **metadata header** that stores:
-- Block size
-- Allocation status (allocated / free)
-- Integrity metadata used for validation and debugging
-
-This metadata allows the allocator to traverse, split, and merge blocks without relying
-on external bookkeeping structures.
+Part 2: Command Parsing
+• Lexical analysis of user input using Flex (Lex)
+• Grammar-based parsing using Bison (Yacc)
+• Parsing of commands, arguments, pipes, and redirections
+• Structured internal representation of commands using command objects
+• Robust handling of malformed or incomplete commands
 
 ---
 
-### 3. Multiple Free Lists
-- The allocator maintains **separate free lists**, each corresponding to a range of block sizes
-- This design reduces allocation time by limiting searches to relevant size classes
-- Small allocations are handled efficiently without scanning large free blocks
+Part 3: Pipes
+• Support for single and multiple pipelines
+• Correct setup and teardown of pipe file descriptors
+• Chaining of commands using |
+• Proper duplication of file descriptors using dup2()
+• Isolation of pipeline stages into separate processes
 
 ---
 
-### 4. Allocation Strategy
-On a `malloc` request:
-1. The requested size is aligned and normalized
-2. The appropriate free list is selected based on the size
-3. A suitable free block is searched
-4. If a free block is larger than required, it is **split**
-5. The allocated portion is returned to the user
-
-This strategy minimizes internal fragmentation while keeping allocation fast.
+Part 4: Input and Output Redirection
+• Input redirection using <
+• Output redirection using >
+• Output append using >>
+• Error redirection using 2>
+• Validation of redirection targets and file permissions
 
 ---
 
-### 5. Deallocation and Coalescing
-On `free`:
-- The block is returned to the appropriate free list
-- Adjacent free blocks are **coalesced** to reduce external fragmentation
-- Coalescing is performed carefully to preserve heap integrity
+Part 5: Built-in Commands
+• cd (change directory)
+• exit (terminate shell execution)
+• Built-ins executed without spawning child processes
 
 ---
 
-### 6. Optimizations and Safety
-- Block splitting to reduce wasted memory
-- Free list insertion strategies to keep operations efficient
-- Integrity checks to detect invalid frees and heap corruption
+Part 6: Process Management and Error Handling
+• Correct handling of background and foreground processes
+• Cleanup of zombie processes
+• Graceful handling of failed system calls
+• Descriptive error messages for invalid commands
 
 ---
 
-## Concepts Demonstrated
-- Heap memory management
-- Pointer arithmetic and alignment
-- Internal vs external fragmentation
-- Free list–based allocators
-- Block splitting and coalescing
-- Low-level systems programming in C
+CONCEPTS DEMONSTRATED
+• UNIX process creation and management
+• Inter-process communication using pipes
+• File descriptor manipulation
+• Lexical analysis and parsing
+• Shell command execution model
+• Error handling in system-level programs
 
 ---
 
-## Build Instructions
-From the `lab1` directory:
-```bash
+BUILDING AND RUNNING
+
+Build the shell
 make
-Running Tests
-Automated tests are provided to validate correctness and robustness:
-./runtest.py
-The tests cover:
-Correct allocation and deallocation
-Edge cases (zero-sized and large allocations)
-Fragmentation behavior
-Error handling and allocator integrity
-Notes
-This allocator is implemented for educational purposes and is not intended to replace
-production-grade memory allocators. The focus is on clarity, correctness, and a deeper
-understanding of how dynamic memory management works under the hood.
+
+Run the shell
+./shell
+
+Execute commands
+command [arguments]
+command1 | command2 | command3
+command > output.txt
+command < input.txt
+command &
+
