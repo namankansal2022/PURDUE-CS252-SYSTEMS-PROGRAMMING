@@ -1,1 +1,88 @@
+CS 252 Lab 2 – Shell Scripting
+Student: Naman Kansal (kansal2)
+
+FEATURES IMPLEMENTED
+
+Part 1: Password Strength Checker
+• Bash script to evaluate password strength using regular expressions
+• Passwords accepted from command-line arguments and/or input file
+• Scoring system based on character composition and patterns
+• Validation of password length constraints
+• Detection of required character classes:
+  – Uppercase letters
+  – Lowercase letters
+  – Numbers
+  – Special characters
+• Penalties applied for:
+  – Repeated characters
+  – Consecutive lowercase sequences
+  – Consecutive uppercase sequences
+  – Consecutive numeric sequences
+• Error messages printed for invalid password conditions
+• Regex-based matching implemented using standard UNIX tools
+
+Script: pwcheck.sh
+
+---
+
+Part 2: Directory Backup Utility
+• Bash script to create versioned backups of a directory
+• Backups stored using incremental sequence numbers
+• Backup created only if directory contents have changed
+• Detection of file changes using timestamps and directory comparison
+• Automatic creation of backup directory if it does not exist
+• Maximum number of backups enforced by removing oldest backups
+• Recursive handling of nested subdirectories
+• Error handling for invalid paths and failed commands
+• Designed to be runnable via cron for automated daily backups
+
+Script: backupdir.sh
+
+---
+
+Part 3: Process Information Monitor
+• Bash script to display runtime information about active processes
+• Processes filtered by command name pattern
+• Information collected per process:
+  – Process ID (PID)
+  – Command name
+  – User
+  – Memory usage
+  – CPU time
+  – Number of threads
+• Optional timed mode to refresh output at fixed intervals
+• Process data extracted using:
+  – ps for process discovery
+  – /proc filesystem for detailed metrics
+• Filtering logic to avoid false matches from command arguments
+• Robust handling of missing or invalid input
+
+
+
+Script: procinfo.sh
+
+---
+
+CONCEPTS DEMONSTRATED
+• Bash scripting fundamentals
+• Regular expressions in shell scripts
+• File and directory manipulation
+• Process monitoring using /proc
+• UNIX command-line utilities
+• Error handling in shell scripts
+• Automation and cron-based execution
+
+BUILDING AND RUNNING
+
+Make scripts executable
+chmod +x pwcheck.sh backupdir.sh procinfo.sh
+
+Password Checker
+./pwcheck.sh [-f passwordFile] [password1 password2 ...]
+
+Backup Utility
+./backupdir.sh <dir> <backup-dir> <max-backups>
+
+Process Monitor
+./procinfo.sh [-t seconds] pattern
 
